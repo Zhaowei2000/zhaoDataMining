@@ -54,20 +54,19 @@
 
 
 4.点击New后，进入下面这个页面，在repository name下方输入所要创建的仓库的名称zhaoDataMining，然后点击Create repository
-![图片12](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/fe28c01b-0a98-4631-a7f0-f7fd3015a903)
 
+![图片12](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/fabb5305-0b68-4a88-970e-e21aa6a51c48)
 
 
 5.出现这个页面时，表明仓库创建成功
 
-![图片13](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/425098a8-7bd6-4e4f-a36b-1d2163a22e37)
+![图片13](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/54c6153e-aa4e-48a8-ae9a-79f35a33e10b)
 
 
-6.使用拖拽的方式或者点击方框中蓝色标记choose your files，将PPT上传到zhaoDataMining仓库中出现以下页面表明PPT上传成功
+6.使用拖拽的方式或者点击上方方框中蓝色标记choose your files，将PPT上传到zhaoDataMining仓库中出现这个页面表明PPT上传成功
+![图片14](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/343cb2b2-db5a-41d0-917b-7efbca0f77cc)
 
-![图片14](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/947af1b4-a6ec-4e3b-9d86-8a60bdae55b5)
 
-![图片15](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/66a82497-f826-43b6-96e4-33e3afc028ba)
 
 # 三、我想学习的计算机技能
 
@@ -124,22 +123,22 @@
 ## 关于DNA计算
 
 最近看了一篇论文是关于利用DNA链置换实现汉明码，可以用于在数据传输过程中对于错误数据的检测和纠正，从而达到实现信息安全的目的。在现代通信系统中，准确可靠的数据传输是至关重要的。然而，数据传输可能会受到各种因素的阻碍，包括噪声、干扰和信道衰落。因此，必须采用错误检测和纠正技术来确保传输数据的准确性和完整性。下图是关于所设计的系统用于错误数据检测的简图。
-
-![图片16](images/图片16.png)
+![图片15](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/5387d70c-b59b-41df-9ad9-fb40ed685281)
 
 一种常用的错误检测技术是奇偶校验，其添加单个奇偶校验位以检测数据传输中的错误。虽然简单有效，但奇偶校验纠正错误的能力有限。然而本问它通过利用计算机网络中汉明码的知识，汉明码是一种更先进的错误检测和纠正技术，不仅可以检测错误，还可以纠正错误。汉明码通过向数据添加额外的奇偶校验位来实现这一点，这允许在传输中纠正错误。因此，与奇偶校验相比，汉明码是一种更可靠和更有效的错误检测和纠正技术。
 
 基于DNA纳米结构的错误检测和校正的过程以数据“1011”的传输为例，我们首先需要将这些数据编码成汉明码，然后使用汉明码进行纠错。要首先确定奇偶校验位P1,P2,P3的数值，下图就是通过DNA计算的方法，实现了对于奇偶校验位数值以及位置的确定。
 
-![图片17](images/图片17.png)
+![图片16](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/3d3029b5-c00c-4df9-852f-2da9781ffc89)
 
-
-
-![](images/图片18.png)
+![图片17](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/2395d7ca-e986-48ce-8200-a861438a0ba7)
 
 下图是关于系统实现的详细介绍
 
-![图片19](images/图片19.png)
+![图片18](https://github.com/Zhaowei2000/zhaoDataMining/assets/168163127/ddd6d873-35f3-4aa6-9e7e-818aabe317b8)
+
 
 通过利用基于DNA的纳米结构，这项研究成功地实现了汉明码，并展示了其在通信系统中进行高级错误检测和纠正的潜力。设计的DNA纳米结构执行逻辑操作，包括计算校验码，定位错误数据，并根据荧光信号进行校正。基于DNA的计算元件的利用为开发有效和可靠的数据传输技术提供了可能性。通过这种方法实现了对于在传输数据的过程中的错误数据检测和错误数据位置的纠错，这是一种很新奇的形式，与计算机中的汉明码相结合，通过DNA链置换展现汉明码并且用于信息安全中。未来的研究可以集中在进一步提高基于DNA的纠错系统的性能和可扩展性，并探索其在各个领域的应用。因此想了解更多的计算机方法，也可以通过DNA链置换的方式去实现它。
+
+
 
